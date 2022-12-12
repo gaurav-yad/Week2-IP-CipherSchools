@@ -1,0 +1,25 @@
+/*  specificity :inline_styleAttribute> id selector>class selector>element selector */
+
+h1{
+    color:green;
+}
+
+h1.h1class{
+    color: red;
+}
+/* specificity:0,0,1,1 */
+
+.heading{
+    color: magenta;
+}
+
+/* specificity:0,0,1,0 */
+
+/* more preference to last one when same specificity */
+
+/* #h1id{
+    color: blue !important;
+} */
+/* increases specificity */
+
+

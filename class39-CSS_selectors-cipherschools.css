@@ -1,0 +1,13 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#main-heading{
+    background-color: #cdcdcd;
+}
+.main-section{
+    background-color: #efcdfd;
+}
+p{
+    background-color: burlywood;
+    color: blueviolet;
+}

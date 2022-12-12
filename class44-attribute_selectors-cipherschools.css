@@ -1,0 +1,29 @@
+/* input[type="tesxt"]{
+    color: red;
+    background-color: aqua;
+} */
+input[type ^='t']{
+    color: aquamarine;
+}
+
+input[type ="password"]{
+    background-color: pink;
+}
+
+/* a[href="https://google.co.in"]{
+    color: red;
+}
+
+a[href *="google"]{
+    color: red;
+
+}
+ */
+
+/* a[href^="https"]{
+    color: green;
+} */
+
+a[href $=".com"]{
+    color: pink;
+}

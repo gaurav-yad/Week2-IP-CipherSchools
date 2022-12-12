@@ -1,0 +1,15 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text-green{
+    color: rgb(98, 190, 98);
+}
+
+.text-red{
+    color: rgb(176, 57, 57);
+}
+
+.bg-dark{
+    background-color: #555;
+}
